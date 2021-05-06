@@ -87,7 +87,6 @@ class JournalEntry extends HTMLElement {
       // CODE GOES HERE vvv
       entryImage = document.createElement('img');
       entryImage.setAttribute('class','entry-image');
-      console.log(entry.image);
       var imgUrl = entry.image['src'];
       entryImage.src = imgUrl;
       entryImage.alt = entry.image['alt'];
